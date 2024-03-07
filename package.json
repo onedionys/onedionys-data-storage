@@ -1,0 +1,42 @@
+{
+  "name": "onedionys-data-storage",
+  "version": "1.0.0",
+  "description": "One Dionys (Data Storage) - A simple abstraction for storing and retrieving data from local storage or session storage.",
+  "main": "src/dataStorage.test.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onedionys/onedionys-data-storage.git"
+  },
+  "keywords": [
+    "onedionys",
+    "tea",
+    "package-manager",
+    "data-storage"
+  ],
+  "author": "One Dionys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onedionys/onedionys-data-storage/issues"
+  },
+  "homepage": "https://github.com/onedionys/onedionys-data-storage#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "mock-local-storage": "^1.1.24"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "onedionys-ajax-wrapper": "^1.0.0",
+    "onedionys-event-emitter": "^1.0.0",
+    "onedionys-number-languange": "^2.0.0",
+    "onedionys-promise-utilities": "^1.0.0",
+    "onedionys-shop-builder": "^2.0.0"
+  }
+}
