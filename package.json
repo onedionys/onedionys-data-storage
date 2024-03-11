@@ -1,6 +1,6 @@
 {
   "name": "onedionys-data-storage",
-  "version": "1.1.1",
+  "version": "4.0.0",
   "description": "One Dionys (Data Storage) - A simple abstraction for storing and retrieving data from local storage or session storage.",
   "main": "src/dataStorage.test.js",
   "directories": {
